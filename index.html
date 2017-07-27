@@ -2,6 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Libre+Franklin" />
     <link rel="stylesheet" href="style.css">
     <title>Tomáš Livora</title>
   </head>
@@ -9,42 +11,60 @@
     <h1>Tomáš Livora</h1>
     <ul>
       <li>
-        <a href="https://mail.google.com/" title="E-mail" id="email">E-mail</a>
+        <a href="https://mail.google.com/" title="E-mail" class="email" id="email">
+          <i class="fa fa-envelope fa-fw" aria-hidden="true"></i>
+          <span>E-mail</span>
+        </a>
       </li>
       <li>
-        <a href="https://www.facebook.com/tomas.livora" title="Facebook" id="facebook">Facebook</a>
+        <a href="https://www.facebook.com/tomas.livora" title="Facebook" class="facebook">
+          <i class="fa fa-facebook-official fa-fw" aria-hidden="true"></i>
+          <span>Facebook</span>
+        </a>
       </li>
       <li>
-        <a href="https://twitter.com/tlivora" title="Twitter" id="twitter">Twitter</a>
+        <a href="https://twitter.com/tlivora" title="Twitter" class="twitter">
+          <i class="fa fa-twitter fa-fw" aria-hidden="true"></i>
+          <span>Twitter</span>
+        </a>
       </li>
       <li>
-        <a href="https://www.linkedin.com/in/livora" title="LinkedIn" id="linkedin">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/livora" title="LinkedIn" class="linkedin">
+          <i class="fa fa-linkedin fa-fw" aria-hidden="true"></i>
+          <span>LinkedIn</span>
+        </a>
       </li>
       <li>
-        <a href="https://github.com/livthomas" title="GitHub" id="github">GitHub</a>
+        <a href="https://github.com/livthomas" title="GitHub" class="github">
+          <i class="fa fa-github fa-fw" aria-hidden="true"></i>
+          <span>GitHub</span>
+        </a>
       </li>
       <li>
-        <a href="http://blog.livthomas.net/" title="Blog" id="blog">Blog</a>
+        <a href="http://blog.livthomas.net/" title="Blog" class="blog">
+          <i class="fa fa-wordpress fa-fw" aria-hidden="true"></i>
+          <span>Blog</span>
+        </a>
       </li>
     </ul>
     <script type='text/javascript'>
-      document.getElementById('email').setAttribute('href', 'ma' + 'ilto' + ':livora' + 'tom@' + 'gmai' + 'l.com');
+        document.getElementById('email').setAttribute('href', 'ma' + 'ilto' + ':livora' + 'tom@' + 'gmai' + 'l.com');
     </script>
     <script>
-      (function (i, s, o, g, r, a, m) {
-        i['GoogleAnalyticsObject'] = r;
-        i[r] = i[r] || function () {
-              (i[r].q = i[r].q || []).push(arguments)
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r;
+            i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
             }, i[r].l = 1 * new Date();
-        a = s.createElement(o),
-            m = s.getElementsByTagName(o)[0];
-        a.async = 1;
-        a.src = g;
-        m.parentNode.insertBefore(a, m)
-      })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+            a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0];
+            a.async = 1;
+            a.src = g;
+            m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
 
-      ga('create', 'UA-72756397-1', 'auto');
-      ga('send', 'pageview');
+        ga('create', 'UA-72756397-1', 'auto');
+        ga('send', 'pageview');
     </script>
   </body>
 </html>
