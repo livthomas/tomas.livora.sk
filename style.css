@@ -4,30 +4,40 @@ html {
 }
 
 body {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   color: #444444;
   font-family: "Libre Franklin", sans-serif;
   font-size: 50px;
-  margin: 50px auto;
+  margin: 20px auto;
+}
+
+h2 {
+  color: #666666;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 20px;
+  margin: 0;
 }
 
 ul {
   display: flex;
-  justify-content: space-between;
+  flex-wrap: wrap;
+  justify-content: center;
   list-style-type: none;
-  width: 550px;
   margin: 50px auto;
   padding: 0;
 }
 
 li {
   font-size: 50px;
+  margin: 12px 10px;
 }
 
 a {
@@ -39,8 +49,17 @@ a span {
   display:none;
 }
 
+.toptal > svg {
+  height: 50px;
+  width: 62.5px;
+}
+
 .email:hover {
   color: #e93e30;
+}
+
+.keybase:hover {
+  color: #ff6f21;
 }
 
 .facebook:hover {
@@ -61,4 +80,8 @@ a span {
 
 .blog:hover {
   color: #0085be;
+}
+
+.toptal:hover > svg {
+  fill: #204ECF;
 }
