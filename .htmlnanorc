@@ -1,3 +1,6 @@
 {
+  "collapseBooleanAttributes": {
+      "amphtml": true
+  },
   "minifySvg": false
 }
